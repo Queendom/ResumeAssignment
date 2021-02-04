@@ -1,26 +1,62 @@
 body 
-    {background-color: rgb(60, 71, 116);}
+    {background-color: rgb(66, 77, 138);}
 section 
-    {background-color: rgb(154, 163, 202);
+    {background-color: rgb(156, 165, 209);
     opacity: 0.93;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
     padding: 2%;
     }
-p, h1, h2, h3 
+
+h1, h2 {
+    font-family: 'Georgia', Geneva, Verdana;
+}
+h3 
     {font-family: Segoe UI, Tahoma, Geneva, Verdana, 'sans-serif';}
-header, h2 {
+
+p {
+    font-family: 'Garamond', Geneva, Verdana;
+    color:rgb(13, 27, 87);
+}
+
+img  {
+    float: left;
+    padding: 5%;
+} 
+
+header {
     text-align: center;
     color: white;
+    font-size: 120%;
     margin-bottom: 5%;
 }
 
-#feature {
+.headertext {
+    font-family: 'Courier New';
+    margin-left: 10%;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:white;
+}
+
+h2 {
     text-align: center;
+    color: white;
+    margin-bottom: 5%;
+    font-size: 150%;
+}
+
+#feature {
+    padding: 5%;
+    text-align: right;
 }
 
 h3 {
     font-weight: bold; 
+    font-size: 130%;
+    color:rgb(12, 25, 82);
 }
 
 a:link {
